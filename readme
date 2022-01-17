@@ -1,0 +1,15 @@
+The Twilio API keys and the from number and the target number are all defined in the sconf.py file and they are secured
+
+The details in the sconf.py file are like
+
+
+>> sconf.py
+
+fromnumber = 'whatsapp:+91XXXXXXXXX'
+tonum = 'whatsapp:+91XXXXXXXXXX'
+account_ssid = 'xxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxx'
+
+...
+
+then the sconf.py file is imported into the read.py the main python running file
